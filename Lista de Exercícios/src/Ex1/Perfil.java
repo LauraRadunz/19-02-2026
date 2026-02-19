@@ -5,6 +5,7 @@ import java.util.List;
 public class Perfil {
     private String nome;
     private List <Filme> filmesAssistidos;
+    private List
 
     public Perfil(String nome, List<Filme> filmesAssistidos) {
         this.nome = nome;
@@ -26,5 +27,5 @@ public class Perfil {
     public void setFilmesAssistidos(List<Filme> filmesAssistidos) {
         this.filmesAssistidos = filmesAssistidos;
     }
-      
+
 }
