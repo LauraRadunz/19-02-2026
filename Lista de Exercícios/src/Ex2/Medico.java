@@ -3,12 +3,10 @@ package Ex2;
 public class Medico {
     private String nome;
     private String especialidade;
-    private String crm;
 
-    public Medico(String nome, String especialidade, String crm) {
+    public Medico(String nome, String especialidade) {
         this.nome = nome;
         this.especialidade = especialidade;
-        this.crm = crm;
     }
 
     public String getNome() {
@@ -25,13 +23,5 @@ public class Medico {
 
     public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
-    }
-
-    public String getCrm() {
-        return crm;
-    }
-
-    public void setCrm(String crm) {
-        this.crm = crm;
     }
 }
